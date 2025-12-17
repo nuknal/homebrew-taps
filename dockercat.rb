@@ -5,7 +5,7 @@ class Dockercat < Formula
   desc "A Terminal UI for Docker"
   homepage ""
   url "https://github.com/nuknal/dockercat/releases/download/v0.2/dockercat"
-  sha256 "sha256:80bb9e33bf153faabd364d2294d9147f7808c0cee1e8ae514cea7311eeba21b5"
+  sha256 "80bb9e33bf153faabd364d2294d9147f7808c0cee1e8ae514cea7311eeba21b5"
 
   # depends_on "cmake" => :build
 
