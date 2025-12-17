@@ -4,14 +4,13 @@
 class Dockercat < Formula
   desc "A Terminal UI for Docker"
   homepage ""
-  url "https://github.com/nuknal/dockercat/releases/download/v0.1.1/dockercat-mac-amd64"
-  sha256 "894291032fde04680e17e822153556083b961b3c135f3f18c8ccad69db9ba6a4"
+  url "https://github.com/nuknal/dockercat/releases/download/v0.2/dockercat"
+  sha256 "sha256:80bb9e33bf153faabd364d2294d9147f7808c0cee1e8ae514cea7311eeba21b5"
 
   # depends_on "cmake" => :build
 
   def install
     system 'pwd'
-    system 'mv dockercat-mac-amd64 dockercat'
     bin.install "dockercat"
   end
 
